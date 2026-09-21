@@ -1,6 +1,6 @@
 # Mehedi-K.github.io
 
-Personal resume/portfolio site for Mehedi K. — QA Automation Engineer & Senior Solutions Architect. A single static page, no build step, no framework, served directly by GitHub Pages.
+Personal resume/portfolio site for Mehedi K. — Full-Stack Engineer, Senior Solutions Architect & QA Automation Engineer. A single static page, no build step, no framework, served directly by GitHub Pages.
 
 **Live:** [mehedi-k.github.io](https://mehedi-k.github.io/)
 
