@@ -218,6 +218,48 @@ strong { color: var(--fg); font-weight: 600; }
   padding: 0.3rem 0.6rem;
 }
 
+/* ---------- Projects ---------- */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.project-card {
+  display: block;
+  background: var(--ink);
+  border: 1px solid var(--panel-line);
+  border-radius: 4px;
+  padding: 1rem 1.1rem;
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.project-card:hover, .project-card:focus-visible {
+  border-color: var(--stage-color, var(--teal));
+}
+
+.project-card h3 {
+  font-family: var(--mono);
+  font-size: 0.95rem;
+  margin: 0 0 0.4rem;
+  color: var(--fg);
+}
+
+.project-card p {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0 0 0.7rem;
+}
+
+.project-lang {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--stage-color, var(--teal));
+}
+
 /* ---------- Experience ---------- */
 
 .exp-item + .exp-item {
