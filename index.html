@@ -152,7 +152,8 @@
       <h2>Projects</h2>
       <p>
         Test automation frameworks and infrastructure I've built across
-        mobile, web, and API layers.
+        mobile, web, and API layers, plus the CI/CD and infrastructure
+        that runs them.
       </p>
       <div class="project-grid">
         <a class="project-card" href="https://github.com/Mehedi-K/appium-java" target="_blank" rel="noopener">
@@ -180,10 +181,35 @@
           <p>Robot Framework (Python) UI + API test automation — SeleniumLibrary against saucedemo.com, RequestsLibrary against reqres.in.</p>
           <span class="project-lang">Robot Framework</span>
         </a>
+        <a class="project-card" href="https://github.com/Mehedi-K/cucumber-java" target="_blank" rel="noopener">
+          <h3>cucumber-java</h3>
+          <p>Cucumber BDD + Java + Selenium UI automation — Gherkin feature files and Page Object Model, targeting saucedemo.com.</p>
+          <span class="project-lang">Java</span>
+        </a>
         <a class="project-card" href="https://github.com/Mehedi-K/docker-selenium-grid" target="_blank" rel="noopener">
           <h3>docker-selenium-grid</h3>
           <p>Dockerized Selenium Grid (hub + browser nodes) via Docker Compose, with a smoke-test suite proving it end-to-end in CI.</p>
           <span class="project-lang">Python</span>
+        </a>
+        <a class="project-card" href="https://github.com/Mehedi-K/k8s-selenium-grid" target="_blank" rel="noopener">
+          <h3>k8s-selenium-grid</h3>
+          <p>Selenium Grid deployed to Kubernetes via a Helm chart, verified end-to-end against a real kind cluster in CI.</p>
+          <span class="project-lang">Helm</span>
+        </a>
+        <a class="project-card" href="https://github.com/Mehedi-K/jenkins-pipeline" target="_blank" rel="noopener">
+          <h3>jenkins-pipeline</h3>
+          <p>Declarative Jenkinsfile for a Java/Maven build-test-package-report flow, run in CI on a real Jenkins controller.</p>
+          <span class="project-lang">Groovy</span>
+        </a>
+        <a class="project-card" href="https://github.com/Mehedi-K/terraform-aws-infra" target="_blank" rel="noopener">
+          <h3>terraform-aws-infra</h3>
+          <p>Terraform IaC for QA test infrastructure on AWS (VPC, EC2, S3, IAM), with a full apply → verify → destroy cycle against LocalStack in CI.</p>
+          <span class="project-lang">Terraform</span>
+        </a>
+        <a class="project-card" href="https://github.com/Mehedi-K/terraform-azure-infra" target="_blank" rel="noopener">
+          <h3>terraform-azure-infra</h3>
+          <p>Terraform IaC for QA test infrastructure on Azure (VNet, VM, Storage, Managed Identity), checked with validate, tflint, and checkov.</p>
+          <span class="project-lang">Terraform</span>
         </a>
       </div>
       <a class="stage-cta" href="https://github.com/Mehedi-K?tab=repositories" target="_blank" rel="noopener">
